@@ -14,4 +14,5 @@
   (lib (name "ESP32-S3FN8")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/ESP32-S3FN8.kicad_sym")(options "")(descr ""))
   (lib (name "INTERFACE-CP2102-GMR_QFN28_")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/INTERFACE-CP2102-GMR_QFN28_.kicad_sym")(options "")(descr ""))
   (lib (name "TPD4E05U06DQAR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/TPD4E05U06DQAR.kicad_sym")(options "")(descr ""))
+  (lib (name "easyeda2kicad")(type "KiCad")(uri "/home/alessio/Documents/Kicad/easyeda2kicad/easyeda2kicad.kicad_sym")(options "")(descr ""))
 )
