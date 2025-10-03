@@ -11771,7 +11771,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprint:CONN-TH_WJ126V-5.0-2P"
 			(at 55.88 114.3 0)
 			(effects
 				(font
@@ -13061,7 +13061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprint:CONN-TH_6P-P5.00_WJ126V-5.0-6P"
 			(at 354.33 121.92 0)
 			(effects
 				(font
