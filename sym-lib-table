@@ -8,4 +8,8 @@
   (lib (name "AP63203WU-7")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprint.symbol/AP63203WU-7.kicad_sym")(options "")(descr ""))
   (lib (name "SMBJ15CA_C78809")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprint.symbol/SMBJ15CA_C78809.kicad_sym")(options "")(descr ""))
   (lib (name "TYPE-C16PIN")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprint.symbol/TYPE-C16PIN.kicad_sym")(options "")(descr ""))
+  (lib (name "AO3400A")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprint.symbol/AO3400A.kicad_sym")(options "")(descr ""))
+  (lib (name "Button")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprint.symbol/Button.kicad_sym")(options "")(descr ""))
+  (lib (name "MA25V220M6X8")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprint.symbol/MA25V220M6X8.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS2116DRLR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Footprint.symbol/TPS2116DRLR.kicad_sym")(options "")(descr ""))
 )
