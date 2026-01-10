@@ -1,32 +1,223 @@
-(module easyeda2kicad:CONN-TH_WJ126V-5.0-2P (layer F.Cu) (tedit 5DC5F6A4)
+(footprint "CONN-TH_WJ126V-5.0-2P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.5 0)
+		(layer "F.SilkS")
+		(uuid "caeee1ef-d227-42bc-bb2d-ded0cabe6cbf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN-TH_WJ126V-5.0-2P"
+		(at 0 6.5 0)
+		(layer "F.Fab")
+		(uuid "82d4be35-3e22-4895-b993-44ffdd13c733")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf051900-9542-4bce-8519-dff773217d50")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "993d2690-62ed-4abf-ba2d-7e1007bc165e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
-	(fp_text reference REF** (at 0 -6.5) (layer F.SilkS)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -3.8 -5)
+		(end 0 -5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d5af833-650d-4180-a7d5-32d8055bd9a5")
 	)
-	(fp_text value CONN-TH_WJ126V-5.0-2P (at 0 6.5) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -3.8 -3.5)
+		(end -2.5 -3.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "02b93f65-06a8-43ca-91f1-e8adc17f342a")
 	)
-	(fp_text user %R (at 0 0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -3.8 1.5)
+		(end -2.5 1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a27602fb-84db-4ea4-9d90-3e42a1a44921")
 	)
-	(fp_line (start 4.00 5.00) (end -0.00 5.00) (layer F.SilkS) (width 0.25))
-	(fp_line (start -0.00 5.00) (end -3.80 5.00) (layer F.SilkS) (width 0.25))
-	(fp_line (start -3.80 5.00) (end -3.80 -5.00) (layer F.SilkS) (width 0.25))
-	(fp_line (start -3.80 -5.00) (end -0.00 -5.00) (layer F.SilkS) (width 0.25))
-	(fp_line (start -0.00 -5.00) (end 4.00 -5.00) (layer F.SilkS) (width 0.25))
-	(fp_line (start 4.00 -5.00) (end 4.00 5.00) (layer F.SilkS) (width 0.25))
-	(fp_line (start -3.80 -3.50) (end -2.50 -3.50) (layer F.SilkS) (width 0.25))
-	(fp_line (start -2.50 -3.50) (end -2.50 -1.50) (layer F.SilkS) (width 0.25))
-	(fp_line (start -2.50 -1.50) (end -3.80 -1.50) (layer F.SilkS) (width 0.25))
-	(fp_line (start -3.80 1.50) (end -2.50 1.50) (layer F.SilkS) (width 0.25))
-	(fp_line (start -2.50 1.50) (end -2.50 3.50) (layer F.SilkS) (width 0.25))
-	(fp_line (start -2.50 3.50) (end -3.80 3.50) (layer F.SilkS) (width 0.25))
-	(pad 1 thru_hole circle (at 0.00 -2.50 0.00) (size 2.00 2.00) (layers *.Cu *.Mask)(drill 1.3000228))
-	(pad 2 thru_hole circle (at 0.00 2.50 0.00) (size 2.00 2.00) (layers *.Cu *.Mask)(drill 1.3000228))
-	(fp_circle (center -3.80 -5.00) (end -3.77 -5.00) (layer F.Fab) (width 0.06))
-	(model "/home/alessio/Documents/KiCad Projects/PAB_V1/PAB_V1/Libraries/Footprint.3dshapes/CONN-TH_DB5.00-LI-2P-126.wrl"
-		(offset (xyz 0.100 0.250 0.000))
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 270))
+	(fp_line
+		(start -3.8 5)
+		(end -3.8 -5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d57518f0-9113-470e-b00e-a6b4f4116556")
+	)
+	(fp_line
+		(start -2.5 -3.5)
+		(end -2.5 -1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e711fc5-4212-499a-97b0-7207ae36d4aa")
+	)
+	(fp_line
+		(start -2.5 -1.5)
+		(end -3.8 -1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65f9f58a-bbc4-42f1-939a-90f35884aeda")
+	)
+	(fp_line
+		(start -2.5 1.5)
+		(end -2.5 3.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3b25d1f-b496-473d-ba14-aea9a5d8b251")
+	)
+	(fp_line
+		(start -2.5 3.5)
+		(end -3.8 3.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6c4811e-8c89-4c8d-a81f-1def7a93b284")
+	)
+	(fp_line
+		(start 0 -5)
+		(end 4 -5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4ba1fcc9-8181-4f26-af54-b355913a7c6a")
+	)
+	(fp_line
+		(start 0 5)
+		(end -3.8 5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a356b25-5716-4b65-8fb4-61f812ad8ac0")
+	)
+	(fp_line
+		(start 4 -5)
+		(end 4 5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "066589c8-e63d-4bd4-955b-8d2a246dee1f")
+	)
+	(fp_line
+		(start 4 5)
+		(end 0 5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cdda5393-f3b3-4948-a144-dfb93d3bbfef")
+	)
+	(fp_circle
+		(center -3.8 -5)
+		(end -3.77 -5)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ba41b03c-62b7-4a08-97fd-6ce8c83a25f3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1c28c9f7-fbfa-4686-9503-dd3be9de43ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -2.5)
+		(size 2 2)
+		(drill 1.300023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "69d7997c-0b4f-4175-b4df-6fb8673ef2d1")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.5)
+		(size 2 2)
+		(drill 1.300023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "27778f3f-f2ca-439d-add9-3a02ed540b66")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_PAB}/CONN-TH_DB5.00-LI-2P-126.wrl"
+		(offset
+			(xyz 0.1 2.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
 	)
 )
