@@ -23,6 +23,10 @@ This is my first PCB design, done in KiCad 9. The idea was to give the plant-as-
 
 The board has been manufactured and it works. Every opinion or suggestion is more than welcome!!
 
+<!-- PCB LAYOUT -->
+![PCB layout — copper routing and silkscreen](docs/images/pcb-layout.png)
+<p align="center"><sub>PAB_V1 layout: power section (left), 5-channel LED driver (top), ESP32-S3-MINI-1 and full GPIO breakout (right)</sub></p>
+
 <!-- HOW IT WORKS -->
 ## How it works
 - ### Concept
@@ -42,6 +46,7 @@ The board has been manufactured and it works. Every opinion or suggestion is mor
 - `Libraries/` — symbols, footprints and 3D models used by the project (kept local so the repo is self-contained).
 - `Datasheets/` — datasheets of the main parts used.
 - `BOM.ods` — bill of materials.
+- `docs/images/` — renders/screenshots of the board (layout, etc.).
 
 ## Status & known issues
 The board has been fabricated and is working. There is one known bug: the USB-UART bridge (CP2102) is not wired correctly to the ESP32-S3, so programming/monitoring through the on-board USB-C via the CP2102 doesn't work.
